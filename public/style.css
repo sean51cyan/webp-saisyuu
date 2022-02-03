@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(214, 238, 170);
+}
+
+footer {
+    background-color: rgb(214, 238, 170) !important;
+    padding : 10px !important;
+    position: absolute !important;/* ←絶対位置 */
+    bottom: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.footerFixed {
+    min-height: 100vh !important; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+    position: relative !important;/* ←相対位置 */
+    padding-bottom: 170px !important; /* ←フッターの高さを指定 */
+    box-sizing: border-box !important;
+}
+
